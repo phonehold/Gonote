@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+ 
 
-# Make data base, printed on Tue Feb  8 20:52:22 2022
+# Make data base, printed on Wed Feb  9 12:19:46 2022
 
 # Variables
 
@@ -28,7 +31,7 @@ CURDIR := /Users/betty/Documents/Dev/Gonote
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bcb43daf7fc7aee39837fa8516ffebcd.zh-cn","_translationsConfigFile":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/tcf.json","_cacheRoot":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/5554b12acf27056905806867f251c859323ff7e9","_corruptedFile":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bcb43daf7fc7aee39837fa8516ffebcd.zh-cn","_translationsConfigFile":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/tcf.json","_cacheRoot":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/d6ee99e4c045a6716e5c653d7da8e9ae6f5a8b03","_corruptedFile":"/Users/betty/Library/Application Support/Code/clp/bcb43daf7fc7aee39837fa8516ffebcd.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -40,7 +43,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/70/tp4fw_ls7ll_c86dg1ytrl_c0000gn/T/vscode-ipc-a1aaf6ef-11f2-4753-8866-4d82c875f4f2.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/70/tp4fw_ls7ll_c86dg1ytrl_c0000gn/T/vscode-ipc-2f321e33-f3e8-499b-909d-e4bee6d0c275.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -58,6 +61,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
+ 
 SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.efERjRDVoZ/Listeners
 # automatic
 %F = $(notdir $%)
@@ -74,7 +78,7 @@ HOME = /Users/betty
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/betty/Library/Application Support/Code/CachedData/5554b12acf27056905806867f251c859323ff7e9
+VSCODE_CODE_CACHE_PATH = /Users/betty/Library/Application Support/Code/CachedData/d6ee99e4c045a6716e5c653d7da8e9ae6f5a8b03
 # environment
 LOGNAME = betty
 # environment
@@ -114,7 +118,7 @@ TMPDIR = /var/folders/70/tp4fw_ls7ll_c86dg1ytrl_c0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/betty/Library/Application Support/Code/1.64.0-main.sock
+VSCODE_IPC_HOOK = /Users/betty/Library/Application Support/Code/1.64.1-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -122,7 +126,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.3065609.3065615
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.3437297.3437304
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -148,7 +152,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 23449
+VSCODE_PID = 99810
 # variable set hash-table stats:
 # Load=69/1024=7%, Rehash=0, Collisions=2/92=2%
 
@@ -158,9 +162,9 @@ VSCODE_PID = 23449
 
 # Directories
 
-# . (device 16777233, inode 3360365): 11 files, no impossibilities.
+# . (device 16777233, inode 3360365): 14 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -237,8 +241,6 @@ init:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Feb  8 20:52:22 2022
+# Finished Make data base on Wed Feb  9 12:19:46 2022
 
- 
-make: *** No rule to make target `all'.  Stop.
  
