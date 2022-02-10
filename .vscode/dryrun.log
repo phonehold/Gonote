@@ -1,8 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/betty/Documents/Dev/Gonote'
-rm -rf go.mod go.sum
-go mod init gonote
-go mod tidy
- 
-make: Leaving directory `/Users/betty/Documents/Dev/Gonote'
- 
