@@ -1,12 +1,14 @@
 /*
  * @Author: yingcai.huang
  * @Date: 2022-02-09 13:55:08
- * @LastEditTime: 2022-02-09 14:27:05
+ * @LastEditTime: 2022-02-11 10:10:01
  * @LastEditors: yingcai.huang
  * @Description:
  * @FilePath: /Gonote/lable/rlable.go
  * 引用代码请说明出处
  */
+
+//TODO lable to fix
 package lable
 
 import "fmt"

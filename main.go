@@ -1,7 +1,7 @@
 /*
  * @Author: yingcai.huang
  * @Date: 2022-02-08 15:03:58
- * @LastEditTime: 2022-02-09 14:44:49
+ * @LastEditTime: 2022-02-11 09:59:31
  * @LastEditors: yingcai.huang
  * @Description:
  * @FilePath: /Gonote/main.go
@@ -19,6 +19,7 @@ import (
 	"gonote/note"
 )
 
+//TODO We'll GET more Info about the Gonote
 func main() {
 
 	note.SayHelloWorld()
