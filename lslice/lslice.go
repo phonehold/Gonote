@@ -1,7 +1,7 @@
 /*
  * @Author: yingcai.huang
  * @Date: 2022-02-11 16:58:24
- * @LastEditTime: 2022-02-11 17:38:05
+ * @LastEditTime: 2022-02-14 19:02:32
  * @LastEditors: yingcai.huang
  * @Description:
  * @FilePath: /Gonote/lslice/lslice.go
@@ -12,6 +12,7 @@ package lslice
 import "fmt"
 
 func NewSlice() {
+	//TODO fix me
 	s3 := make([]int, 4, 5)
 	fmt.Println("s3=", s3)
 	// //define slice var s1
