@@ -1,7 +1,7 @@
 /*
  * @Author: yingcai.huang
  * @Date: 2022-02-08 15:03:58
- * @LastEditTime: 2022-02-11 16:21:34
+ * @LastEditTime: 2022-02-11 17:30:46
  * @LastEditors: yingcai.huang
  * @Description:
  * @FilePath: /Gonote/main.go
@@ -15,9 +15,11 @@ import (
 	"gonote/lfunc"
 	"gonote/logger"
 	"gonote/lpoint"
+	"gonote/lslice"
 	"gonote/lstring"
 	"gonote/lvar"
 	"gonote/note"
+	"runtime"
 )
 
 //TODO We'll GET more Info about the Gonote
@@ -35,4 +37,7 @@ func main() {
 	res1, res2 := lfunc.FuncSum(100, 7)
 	fmt.Printf("res1 %v, res2 %v", res1, res2)
 	larray.NewArray()
+	lslice.NewSlice()
+	Systype := runtime.GOARCH
+	fmt.Println("Current os is", Systype)
 }
