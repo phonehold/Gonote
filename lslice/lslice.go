@@ -1,12 +1,13 @@
 /*
- * @Author: yingcai.huang
+ * @Author: bytebit
  * @Date: 2022-02-11 16:58:24
- * @LastEditTime: 2022-02-14 19:04:24
- * @LastEditors: yingcai.huang
+ * @LastEditTime: 2022-02-17 16:21:18
+ * @LastEditors: bytebit
  * @Description:
  * @FilePath: /Gonote/lslice/lslice.go
  * 引用代码请说明出处
  */
+
 package lslice
 
 import "fmt"
