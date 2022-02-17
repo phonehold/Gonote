@@ -1,7 +1,7 @@
 /*
  * @Author: yingcai.huang
  * @Date: 2022-02-08 15:03:58
- * @LastEditTime: 2022-02-14 09:41:01
+ * @LastEditTime: 2022-02-16 15:33:45
  * @LastEditors: yingcai.huang
  * @Description:
  * @FilePath: /Gonote/main.go
@@ -39,4 +39,5 @@ func main() {
 	lslice.NewSlice()
 	//Systype := runtime.GOARCH
 	//fmt.Println("Current os is", Systype)
+
 }
